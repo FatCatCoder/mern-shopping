@@ -1,0 +1,19 @@
+{
+  "name": "mern-shopping",
+  "version": "1.0.0",
+  "description": "mern shopping list app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "fatcatcoder",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
+  }
+}
