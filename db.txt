@@ -1,0 +1,7 @@
+use mernshopping
+
+db.createCollection("items")
+
+db.items.insert({
+    name: "we need cheese"
+});
